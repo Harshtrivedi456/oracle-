@@ -1,0 +1,4 @@
+-- 1. First 5 employees with salary > 017
+SELECT * FROM EMPLOYEES
+WHERE SALARY > 17
+FETCH FIRST 5 ROWS ONLY;
